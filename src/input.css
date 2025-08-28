@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+@theme {
+  --font-display: 'Outfit', sans-serif;
+  --color-slate-900: #1f314f;
+  --color-slate-500: #68778d;
+  --color-slate-300: #d5e1ef;
+}
+
+body {
+  font-family: var(--font-display);
+}
