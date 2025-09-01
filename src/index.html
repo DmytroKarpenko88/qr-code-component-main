@@ -27,18 +27,43 @@
       }
     </style>
   </head>
-  <body>
-    <div>
-      <img src="@img" alt="Image" />
-    </div>
-    Improve your front-end skills by building projects Scan the QR code to visit
-    Frontend Mentor and take your coding skills to the next level
+  <body class="flex flex-col min-h-screen bg-slate-300 font-outfit">
+    <header></header>
+    <main class="grow flex items-center justify-center">
+      <section>
+        <div class="flex flex-col items-center md:flex-row">
+          <div
+            class="max-w-xs h-[499px] mx-auto p-4 rounded-card-radius bg-white shadow-card-shadow"
+          >
+            <div class="rounded-img-radius overflow-hidden outline-black-1">
+              <img src="../images/image-qr-code.png" alt="Image" />
+            </div>
+            <div class="mt-6 text-center">
+              <h3
+                class="text-lg text-slate-900 font-bold tracking-normal leading-120"
+              >
+                Improve your front-end skills by building projects
+              </h3>
+              <p
+                class="mt-4 font-normal text-slate-500 text-base leading-140 tracking-5"
+              >
+                Scan the QR code to visit Frontend <br />Mentor and take your
+                coding skills to <br />the next level
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    <footer class="mt-auto">
+      <div class="attribution mt-auto">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/DmytroKarpenko88">Dmytro Karpenko</a>.
+      </div>
+    </footer>
   </body>
 </html>

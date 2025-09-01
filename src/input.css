@@ -1,13 +1,31 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import 'tailwindcss';
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 @theme {
-  --font-display: 'Outfit', sans-serif;
+  --font-outfit: 'Outfit', sans-serif;
   --color-slate-900: #1f314f;
   --color-slate-500: #68778d;
   --color-slate-300: #d5e1ef;
+
+  --radius-card-radius: 20px;
+  --radius-img-radius: 10px;
+
+  --text-base: 15px;
+  --text-lg: 22px;
+
+  --leading-120: 1.2;
+  --leading-140: 1.4;
+
+  --tracking-5: 0.01em;
+
+  --space-200: 16px;
+  --space-300: 24px;
+  --space-500: 40px;
+
+  --shadow-card-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
 }
 
-body {
+/* body {
   font-family: var(--font-display);
-}
+} */
